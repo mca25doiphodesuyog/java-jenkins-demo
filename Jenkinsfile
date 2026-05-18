@@ -14,7 +14,7 @@ stage('Build') {
 
 steps {
 
-bat 'mvn clean compile'
+sh 'mvn clean compile'
 
 }
 
@@ -24,8 +24,8 @@ stage('Test') {
 
 steps {
 
-bat 'mvn test'
-
+sh 'mvn test'
+#instead of bat write sh
 }
 
 }
