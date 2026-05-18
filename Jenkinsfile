@@ -25,7 +25,7 @@ stage('Test') {
 steps {
 
 sh 'mvn test'
-#instead of bat write sh
+
 }
 
 }
